@@ -1,0 +1,1 @@
+DaemonConsole.log("Welcome!");
