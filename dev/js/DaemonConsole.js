@@ -1,8 +1,20 @@
 class DaemonConsole {
+
 	constructor() {
 	}
 
+	static setOutput(element) {
+		this.consoleElement = element;
+	}
+
 	static log(msg) {
-		console.log("[DaemonSmite]: " + msg);
+		var updatedMsg = "[DaemonSmite]: " + msg;
+		
+		if(this.consoleElement) {
+			this.consoleElement.append(updatedMsg + "\n");
+
+		} else {
+			console.log(updatedMsg);
+		}
 	}
 };

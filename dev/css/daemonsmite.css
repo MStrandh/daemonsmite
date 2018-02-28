@@ -1,0 +1,19 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: #222222;
+}
+
+textarea {
+	color: #00FF00;
+	background: #333333;
+	font-size: 13px;
+}
+
+.game-container {
+	margin: 0 auto;
+	width: 50%;
+}
