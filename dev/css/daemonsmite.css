@@ -7,13 +7,49 @@ body {
 	background: #222222;
 }
 
+h1 {
+	color: #CCCCCC;
+}
+
 textarea {
 	color: #00FF00;
 	background: #333333;
 	font-size: 13px;
+
+	border-color: #00FF00;
+	padding: 8px 8px;
 }
 
 .game-container {
 	margin: 0 auto;
 	width: 50%;
+}
+
+.inputElements {
+	margin-bottom: 10px;
+}
+
+#consoleInput {
+	border-color: #00FF00;
+	width: 300px;
+	background: #333333;
+	color: #00FF00;
+
+	padding: 5px;
+
+	font-size: 13px;
+}
+
+#consoleInput:focus {
+	outline: none;
+}
+
+#consoleSubmit {
+	border-color: #00FF00;
+	background: #333333;
+	color: #00FF00;
+
+	padding: 5px;
+
+	font-size: 13px;
 }
