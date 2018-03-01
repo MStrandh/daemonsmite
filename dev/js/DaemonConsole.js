@@ -8,7 +8,7 @@ class DaemonConsole {
 	}
 
 	static log(msg) {
-		var updatedMsg = "[DaemonSmite] > " + msg;
+		var updatedMsg = " > " + msg;
 		
 		if(this.consoleElement) {
 			this.consoleElement.append(updatedMsg + "\n");
